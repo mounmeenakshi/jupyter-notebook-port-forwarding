@@ -1,0 +1,9 @@
+ write this on the remote server, say on graphics1 node
+ 
+ jupyter notebook --no-browser --ip='0.0.0.0'
+ 
+ write this on the local machine
+ 
+ ssh cmeenakshi@pegasus.ac.iucaa.in -L 8890:graphics1:8890 -N
+ now copy the link from the terminal and paste on the local machine browser
+ 
